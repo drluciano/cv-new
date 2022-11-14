@@ -1,40 +1,52 @@
-.top-cloud{
-    margin-top: 5%;
-    margin-left: 100px;
-    position: relative;
+.top-container {
+  background-color: rgb(192, 254, 255);
+  margin-top: 50px;
+  padding-top: 100px;
+  position: relative;
 }
-.mid-cloud{
-    position: absolute;
+.t-2 {
 }
 
-
-.red {
-  height: 100px;
-  width: 100px;
-  background-color: red;
+.top-cloud {
   position: absolute;
-  margin-top: 200px;
-  margin-left: 200px;
+  right: 300px;
+  top: 50px;
 }
-.blue {
-  height: 100px;
-  width: 100px;
-  background-color: blue;
+.mid-cloud {
   position: absolute;
-  margin-top: 100px;
-  margin-left: 100px;
+  left: 300px;
+  bottom: 300px;
 }
-.yellow {
-  height: 100px;
-  width: 100px;
-  background-color: yellow;
-  position: absolute;
+.mtn {
 }
 
+.ppic {
+}
 
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather Sans", sans-serif;
+}
 
-body{
-    background-color: grey;
-    margin: 0;
-    text-align: center;
+h1 {
+  font-family: "Sacramento", cursive;
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999E;
+}
+a{
+  color: #11999E;
 }

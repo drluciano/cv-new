@@ -41,6 +41,7 @@ hr {
 .top-container {
   background: linear-gradient(180deg, lightblue, white);
   padding-top: 100px;
+  height: 600px;
   position: relative;
 }
 .top-cloud {
